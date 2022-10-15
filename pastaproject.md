@@ -1,0 +1,1 @@
+A pasta project foi criada com o intuito de importar as gems de uma maneira mais prática , lá esta localizada o GemFile e o Gemfile.lock
