@@ -1,9 +1,10 @@
-class Mercado 
-
-    def initialize(produto)
-   @produto = produto
+class Mercado < Produto
+    def initialize (produto , price)
+        @produto = produto
+        @price = price
+       
     end
-    def comprar 
-    puts "Você comprou o produto #{@produto.name} no valor de #{@produto.price}"
+    def buy
+        puts "Você comprou  o produto #{@produto}, que custou #{@price} reais"
     end
 end
